@@ -1,7 +1,7 @@
 
 import axios from "axios";
 
-const KEY = 'AIzaSyBjSPVJyNEIY2_pA078inR4FBsOtqKM2Uc';
+Const KEY = 'Find in google.com account';
 
 export default axios.create({
     baseURL: "https://www.googleapis.com/youtube/v3",
@@ -11,7 +11,7 @@ export default axios.create({
         type: 'video',
         key: KEY
       }
-  });
+  }); 
 
 
   
